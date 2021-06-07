@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/style.css">
+		<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="./js/script.js"></script>
+		<title>I'm Phoi Nguyen Tran</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container">
+				<div class="row row-cols-2 w-100 mx-0">
+					<div class="col">
+						<a class="navbar-brand" href="#">PhoiNT</a>
+					</div>
+					<div class="col">						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarCollapse">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item mx-3">
+									<a class="nav-link " href="#">Home</a>
+								</li>
+								<li class="nav-item mx-3">
+									<a class="nav-link" href="#summary">Summary</a>
+								</li>
+								<li class="nav-item mx-3">
+									<a class="nav-link" href="#certificate" >Certificates</a>
+								</li>
+								<li class="nav-item mx-3">
+									<a class="nav-link" href="#portfolio" >Portfolio</a>
+								</li>
+								<li class="nav-item mx-3">
+									<a class="nav-link" href="#skill" >Skill</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="container hero">
+				<div class="row justify-content-center">
+					<div class="col-md-8 text-center">
+						<h1>I'M PHOI NGUYEN</h1>
+						<p>an Fresher Developer</p>
+						<img id="my-avatar" src="./images/my-image.png" alt="my-image">
+						<h2>Hello</h2>
+						<p>Starting this new career quite late, I understand that I must work hard to prove myself. The first step is always the hardest, but I have proven that I am not afraid of challenges.</p>
+						<p><em>It's never too late to start new things</em></p>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<div id="summary"></div>
+						<h2 class="text-center">SUMMARY</h2>
+						<hr class="underline-heading">
+						<ul>
+							<li>I have finished 3 courses at FUNiX with 3 highscore final Project. They are html/css, javascript and OOP with Java.</li>
+							<li>Using html/css and Bootstrap framework to build a responsive website, and publish the website online.</li>
+							<li>Build a simple web-app with javascript and jquery</li>
+							<li>Understand what is OOP. Using java to build a simple employee management application running on console</li>
+							<li>Have basic knowledge about Data Structure and Algorithm (still learning)</li>
+							<li>Proactive, fast learner and high responsibilities in working</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-8">
+						<div id="certificate"></div>
+						<h2 class="text-center">Certificates</h2>
+						<hr class="underline-heading">
+						<ul>
+							<li>FUNiX Certificate: HTML/CSS - Building your first website</li>
+							<li>FUNiX Certificate: Object-Oriented Program with Java</li>
+							<li>FUNiX Certificate: Javascript - Creating your first Program</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-12">
+						<div id="portfolio"></div>
+						<h2 class="text-center">Portfolio</h2>
+						<hr class="underline-heading">
+					</div>	
+				</div>
+				<div class="row mb-3 shadow-sm">
+
+					<div class="col-lg-5 portfolio-img">
+						<img src="./images/Creave.png" alt="html/css-project">
+					</div>
+					<div class="col-lg-7">
+						<h3>Creave INC</h3>
+						<button class="btn btn-light disabled">HTML5</button>
+						<button class="btn btn-light disabled">CSS</button>
+						<button class="btn btn-light disabled">Bootstrap 4</button>
+						<p>A mobile-first website with 5 pages, using 80% bootstrap for styling</p>
+					</div>
+				</div>
+				<div class="row mb-3 shadow-sm">
+					<div class="col-lg-5 portfolio-img">
+						<img src="./images/class-marksheet.png" alt="html/css-project">
+					</div>
+					<div class="col-lg-7">
+						<h3>Class Marksheet</h3>
+						<button class="btn btn-light disabled">HTML5</button>
+						<button class="btn btn-light disabled">CSS</button>
+						<button class="btn btn-light disabled">Bootstrap 4</button>
+						<button class="btn btn-light disabled">Js & Jquery</button>
+						<p>A web-app will store score input, calculate the average score and identify good students. A plus feature allow to search in table by name.</p>
+					</div>
+				</div>
+				<div class="row mb-3 shadow-sm">
+					<div class="col-lg-5 portfolio-img">
+						<img src="./images/News-API.png" alt="html/css-project">
+					</div>
+					<div class="col-lg-7">
+						<h3>My News</h3>
+						<button class="btn btn-light disabled">HTML5</button>
+						<button class="btn btn-light disabled">CSS</button>
+						<button class="btn btn-light disabled">Bootstrap 4</button>
+						<button class="btn btn-light disabled">Js & Jquery</button>
+						<p>A website get top news through third-party API and show them in landing page (but limited by 10 news). A search box allow searching news by keywords in range of date (this will load by ajax).</p>
+					</div>
+				</div>
+				<div class="row mb-3 shadow-sm">
+					<div class="col-lg-5 portfolio-img">
+						<img src="./images/OOP-w-java.png" alt="html/css-project">
+					</div>
+					<div class="col-lg-7">
+						<h3>Employee Management</h3>
+						<button class="btn btn-light disabled">Java</button>
+						<button class="btn btn-light disabled">OOP</button>
+						<p>A java program build in OOP with many feature for managing employee. This program run on console screen. Feature: getting input, storing in ArrayList, displaying, searching and sorting</p>
+					</div>
+				</div>
+
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-6">
+						<div id="skill"></div>
+						<h2 class="text-center">SKILLS</h2>
+						<hr class="underline-heading">
+						<h5>html/css</h5>
+						<div class="progress my-1">
+  							<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+						</div>
+						<h5>Javascript & Jquery</h5>
+						<div class="progress my-1">
+  							<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+						</div>
+						<h5>Java</h5>
+						<div class="progress my-1">
+  							<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+						</div>
+						<h3 class="mt-3">Other</h3>
+						<ul>
+							<li>Foreign Languges: English</li>
+							<li>Time Management</li>
+							<li>Problem Solving</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-8">
+						<div id="aboutme"></div>
+						<h2 class="text-center">ABOUT ME</h2>
+						<hr class="underline-heading">
+						<p>I am an open person, always accepting new things to develop. Having a can-do attitude, I am willing to accept challenges and learn new things.</p>
+						<p>Although starting this new career quite late, with no work experience, I still believe that I have a lot of ability and determination to develop a great career. With the necessary efforts, I committed myself continually practicing and improving to become a full-stack professional developer in the next 3 years.</p>
+					</div>
+				</div>
+
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-8">
+						<div id="aboutme"></div>
+						<h2 class="text-center">CONTACT</h2>
+						<hr class="underline-heading">
+						<p>Email: <a href="mailto:tranphoi2806@gmail.com">tranphoi2806@gmail.com</a></p>
+						<p>Phone: <a href="tel:0799064911">0799064911</a></p>
+						<p>Skype: phoi.nt2806</p>
+						<p>Linkedin: <a href="https://www.linkedin.com/in/phoinguyen/">https://www.linkedin.com/in/phoinguyen/</a></p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	</body>
+</html>

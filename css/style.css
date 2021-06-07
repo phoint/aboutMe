@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0; 
+}
+
+body {
+	font-size: 24px;
+}
+
+li {
+	list-style-position: inside;
+}
+
+#summary, #certificate, #skill, #portfolio, #aboutme {
+	display: block;
+	position: relative;
+	visibility: hidden;
+	top: -100px;
+}
+
+.hero {
+	padding-top: 100px;
+}
+
+.hero #my-avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+
+hr.underline-heading {
+	width: 15%;
+	height: 3px;
+	background-color: #ff6f3c;
+	margin: 0 auto 15px;
+}
+
+.portfolio-img {
+	padding: 5px; 
+}
+
+.portfolio-img img {
+	min-height: 250px;
+	width: 100%;
+	object-fit: cover;
+	object-position: left;
+}
