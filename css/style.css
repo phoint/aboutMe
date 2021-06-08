@@ -34,13 +34,26 @@ hr.underline-heading {
 	margin: 0 auto 15px;
 }
 
+#certificate ~ ul li:hover {
+	color: #ff6f3c;
+}
+
 .portfolio-img {
-	padding: 5px; 
+	height: 250px;
+	overflow: hidden;
+	padding: 0;
 }
 
 .portfolio-img img {
-	min-height: 250px;
+/*	min-height: 250px;*/
 	width: 100%;
+	height: 100%;
 	object-fit: cover;
-	object-position: left;
+	transition: 0.5s;
 }
+
+.portfolio-img img:hover {
+	height: 110%;
+	transition: ;
+}
+
